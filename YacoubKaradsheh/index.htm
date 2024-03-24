@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yacoub's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Roboto+Mono:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="logo2.png" alt="Your Logo" class="navbar-logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" data-aos="fade-in">
+            <div class="home-intro">
+                <div class="image-wrapper">
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave"
+                                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,0,0,0.7)" />
+
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,165,0,0.5)" />
+
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,0,0.3)" />
+
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0,0,255,0.4)" />
+                        </g>
+                    </svg>
+                    <img src="IMG_8761 copy Background Removed.png" alt="Yacoub" class="home-image">
+                </div>
+                <div class="home-text">
+                    <h1 class="greeting">Hi, I'm Yacoub!</h1>
+                    <p class="greeting">a Software Developer!</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" data-aos="fade-up">
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <p class="skill-description">I have a passion for creating intuitive, visually appealing web
+                        interfaces.</p>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java Swing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <p class="skill-description">
+                        I craft backend solutions that scale easily, ensuring everything works like a
+                        charm!
+                    </p>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Dev Tools</h3>
+                    <p class="skill-description">
+                        I enhance my development process by embracing a collection of powerful tools. </p>
+                    <ul class="skill-list">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Visual Studio Code</li>
+                        <li>PyCharm</li>
+                        <li>Jupyter</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" data-aos="zoom-in">
+            <h2>About Me</h2>
+            <div class="cv-section">
+                <a href="Yacoub Karadsheh - CV.pdf" download="Yacoub_Al_Karadsheh_CV" class="social-link">
+                    <i class="fas fa-file-download"></i> Download CV
+                </a>
+            </div>
+            <div class="text-slideshow">
+                <!-- Slide for Background -->
+                <div class="text-slide fade">
+                    <h3>My Journey</h3>
+                    <p>Hey there! I'm Yacoub, a tech enthusiast who turned passion into a profession. I graduated with a
+                        <strong>First Class Honors Master's degree in Advanced Computer Science</strong> from the
+                        University of Kent, where I dived deep into AI and developed an image enhancement application
+                        that's nothing short of magic. But that's not where my story began. My foundation was laid with
+                        a <strong>Bachelor's degree in Computer Science</strong>, also from Kent, where I brought a
+                        campus navigation chatbot to life. It's been an exhilarating ride, and I'm just getting started!
+                    </p>
+                </div>
+                <!-- Slide for Experience -->
+                <div class="text-slide fade">
+                    <h3>What I've Been Up To</h3>
+                    <p>My professional journey has been a roller coaster of learning and growth. As a <strong>FullStack
+                            Intern at ProgressSoft</strong>, I got my hands dirty with full-stack development, making
+                        applications more scalable and intuitive. Then, at <strong>RealSoft</strong>, I worked on a
+                        project
+                        that developed a Python-based visual recognition system. These experiences taught me not just
+                        about coding, but about solving real-world problems with technology.</p>
+                </div>
+                <!-- Slide for Interests -->
+                <div class="text-slide fade">
+                    <h3>A Peek Into My World</h3>
+                    <p>When I'm not coding, you'll find me exploring the great outdoors or getting lost in the world of
+                        video games. I'm an avid cook, a football enthusiast, and a golf amateur who enjoys the thrill
+                        of a challenge. Whether it's hiking up a mountain or mastering a new recipe, I believe in living
+                        life to the fullest and learning something new every day.</p>
+                </div>
+                <!-- Additional slides as needed -->
+            </div>
+            <div class="slide-indicators">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <section id="projects" data-aos="zoom-in">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-content">
+                        <img src="icons8-ai-48.png" alt="Brain Icon">
+                        <h4>AI Image Enhancement</h4>
+                        <p>This is a brief description of the project. It highlights the main features or the goal of
+                            the project.</p>
+                    </div>
+                    <a href="Projects/imageEnhancement/IE.htm" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Learn More
+                    </a>
+                    <a href="https://github.com/Yacoub01-K/ESRGAN-Image-Enhancement" class="project-link"
+                        target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <div class="project-content">
+                        <img src="icons8-chatbot-48.png" alt="Project Image">
+                        <h4>University ChatBot</h4>
+                        <p>This is a brief description of the project. It highlights the main features or the goal of
+                            the project.</p>
+                    </div>
+
+                    <a href="/Users/samerkaradssheh/Dropbox/Mac/Desktop/Portfolio/Projects/ChatBot/chatbot.htm"
+                        class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Learn More
+                    </a>
+
+                    <a href="https://github.com/Yacoub01-K/KentBot" class="project-link" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+
+                </div>
+                <!-- <div class="project-item">
+                    <div class="project-content">
+                        <img src="icons8-facial-recognition-48.png" alt="Project Image"
+                            style="width: 60px; height: 60px;">
+                        <h4>AI Facial Recognition</h4>
+                        <p>This is a brief description of the project. It highlights the main features or the goal of
+                            the project.</p>
+                    </div>
+                    <a href="Projects/facialRecognition/FR.htm" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Learn More
+                    </a>
+                    <a href="https://github.com/yourusername/yourprojectrepo" class="project-link" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </div> -->
+                <div class="project-item">
+                    <div class="project-content">
+                        <img src="icons8-creativity-48.png" alt="Project Image">
+                        <h4>Computational Creativity</h4>
+                        <p>This is a brief description of the project. It highlights the main features or the goal
+                            of the project.</p>
+                    </div>
+                    <a href="/Users/samerkaradssheh/Dropbox/Mac/Desktop/Portfolio/Projects/Gene/gene.htm"
+                        class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Learn More
+                    </a>
+                    <a href="https://github.com/Yacoub01-K/Creative-Genetic-Art" class="project-link" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </section>
+        <section id="contact" data-aos="zoom-in">
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Contact Me</h2>
+                    <form action="https://formspree.io/f/xvoeaovp" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="_replyto" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Phone:</strong> +44-7479339846</p>
+                    <div class="contact-icons">
+                        <!-- Email Icon -->
+                        <a href="mailto:karadshehyacoub@gmail.com" class="icon-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <!-- LinkedIn Icon -->
+                        <a href="https://www.linkedin.com/in/yacoub-al-karadsheh-9365a31b9/" target="_blank"
+                            class="icon-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Yacoub Al Karadsheh. All rights reserved. Icons by Icons8</p>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+<style>
+    body,
+    html {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+    }
+
+    @keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    header {
+        background: rgba(34, 34, 34, 0.85);
+        /* Semi-transparent for layered effect */
+        backdrop-filter: blur(5px);
+        /* Soft blur effect on background */
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-logo {
+        height: 50px;
+        /* Adjust based on your logo's size */
+        width: auto;
+        /* Maintains aspect ratio */
+        margin-right: 20px;
+        /* Adds some space between logo and nav items */
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+        color: #64FFDA;
+        /* Bright accent color */
+        border-bottom: 2px solid #64FFDA;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+        color: #64FFDA;
+        border-bottom: 2px solid #64FFDA;
+    }
+
+    main {
+        padding-top: 60px;
+    }
+
+    .social-link {
+        color: #64FFDA;
+        /* Initial color */
+        font-size: 24px;
+        /* Adjust size as needed */
+        margin: 10px;
+        /* Space around icons */
+        transition: color 0.3s ease;
+        /* Smooth transition for color change */
+    }
+
+    .social-link:hover {
+        color: #5aafe6;
+        /* Color changes on hover */
+    }
+
+    section {
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 10%;
+        /* Reduced from 50px to 30px for tighter spacing */
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .skills-container,
+    .cv-section,
+    .about,
+    .contact-container {
+        margin-top: 5px;
+        /* Adjust as needed for internal spacing within sections */
+    }
+
+    .skills {
+        margin-bottom: 2px;
+    }
+
+    .project {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    section a {
+        color: #64FFDA;
+
+        /* Example bright color for links */
+        text-decoration: none;
+        /* Optional: removes underline */
+    }
+
+    #home {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 0;
+        /* Reduce or eliminate padding at the bottom of the Home section */
+        margin-bottom: 0;
+    }
+
+    .home-intro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+
+    #about {
+        margin-bottom: 0;
+        /* Reduces the bottom margin of the About Me section */
+    }
+
+    #about h3 {
+        color: #5aafe6;
+        /* Lighter shade of #23a6d5 for contrast */
+        font-size: 1.8rem;
+        /* Adjust size as needed */
+        margin-bottom: 15px;
+        /* Space between title and paragraph */
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        /* Optional: Adds depth */
+    }
+
+
+    #skills {
+        padding-top: 20px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        /* Reduces the top padding of the Skills section */
+    }
+
+    .image-wrapper {
+        position: relative;
+        width: 400px;
+        /* Adjust as needed */
+        height: 400px;
+        /* Adjust as needed */
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-image {
+        position: absolute;
+        width: 100%;
+        /* Adjust based on your preference */
+        height: auto;
+        border-radius: 50%;
+        /* Ensures the image is circular */
+        z-index: 2;
+        /* Ensures the image overlays the SVG */
+    }
+
+    .waves {
+        position: absolute;
+        width: 100%;
+        height: 15vh;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        /* Ensures the waves are behind the image */
+        min-height: 150px;
+        max-height: 200px;
+    }
+
+
+    .hero_area {
+        position: relative;
+        height: 100vh;
+        background-color: black;
+    }
+
+
+    .parallax>use {
+        animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+    }
+
+    .parallax>use:nth-child(1) {
+        animation-delay: -2s;
+        animation-duration: 7s;
+    }
+
+    .parallax>use:nth-child(2) {
+        animation-delay: -3s;
+        animation-duration: 10s;
+    }
+
+    .parallax>use:nth-child(3) {
+        animation-delay: -4s;
+        animation-duration: 13s;
+    }
+
+    .parallax>use:nth-child(4) {
+        animation-delay: -5s;
+        animation-duration: 20s;
+    }
+
+    @keyframes move-forever {
+        0% {
+            transform: translate3d(-90px, 0, 0);
+        }
+
+        100% {
+            transform: translate3d(85px, 0, 0);
+        }
+    }
+
+    /*Shrinking for mobile*/
+
+    @media (max-width: 768px) {
+        .waves {
+            height: 40px;
+            min-height: 40px;
+        }
+    }
+
+
+    .home-text h1,
+    .home-text p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-text h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    .home-text p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    @media (max-width: 768px) {
+        .home-intro {
+            flex-direction: column;
+        }
+
+        .home-text h1 {
+            font-size: 2rem;
+        }
+
+        .home-text p {
+            font-size: 1.2rem;
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .greeting {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        animation: fadeInUp 1s ease-out forwards;
+        margin-bottom: 10px;
+    }
+
+    .home-text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #bbb;
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+    .typing::after {
+        content: '|';
+        font-weight: 700;
+        animation: blink 1s step-end infinite;
+    }
+
+    #skills {
+        padding: 50px 10%;
+        color: white;
+        text-align: center;
+    }
+
+    .section-title {
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 80px;
+        /* Increased gap for more space between categories */
+        margin-bottom: 60px;
+        /* Extra space below the entire container */
+    }
+
+    .skill-category {
+        flex: 1;
+        max-width: 30%;
+        /* Adjust based on layout preference */
+        text-align: center;
+        margin: 0 30px;
+        /* Increased horizontal space */
+        margin-bottom: 80px;
+        /* Increased space between categories, especially for added text */
+    }
+
+    .skill-category h3 {
+        margin-bottom: 20px;
+        color: #5aafe6;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        /* More space below the header for the additional text */
+    }
+
+    .skill-description {
+        /* Style for the new descriptive text under each header */
+        font-size: 0.9rem;
+        align-content: center;
+        /* Adjust based on your preference */
+        color: white;
+        /* Subtle text color, adjust as needed */
+        margin-bottom: 30px;
+        /* Space before the list starts */
+    }
+
+    .skill-list {
+        padding-left: 0;
+        /* Removes default padding */
+        list-style-type: none;
+        /* Removes default list styling */
+        text-align: left;
+        /* Aligns text to the left */
+    }
+
+    .skill-list li {
+        background-color: #eee;
+        margin-bottom: 25px;
+        align-items: center;
+        /* Vertically centers the content */
+        text-align: center;
+        list-style-type: none;
+        /* Removes default list styling */
+        /* Increased space between list items */
+        padding: 20px;
+        color: black;
+        /* More internal padding */
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+        .skills-container {
+            gap: 40px;
+            /* Adjusted gap for smaller screens */
+        }
+
+        .skill-category {
+            flex-basis: 100%;
+            /* Full width for vertical stacking */
+            max-width: 100%;
+            margin: 0 auto;
+            /* Centering */
+            margin-bottom: 60px;
+            /* Space between stacked categories */
+        }
+
+        .skill-description {
+            margin-bottom: 20px;
+            /* Adjusted space for smaller screens */
+        }
+    }
+
+    @media (max-width: 768px) {
+        .skill-category {
+            flex-basis: 100%;
+            /* Each category takes full width on smaller screens */
+            max-width: 100%;
+            margin-bottom: 30px;
+            /* Increase space between categories on wrap */
+        }
+    }
+
+    #projects {
+        padding: 40px 10%;
+        background-color: transparent;
+        /* Or any color that fits your scheme */
+        color: black;
+        /* Adjust based on your color scheme */
+        text-align: center;
+    }
+
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates two columns */
+        gap: 20px;
+        /* Adjusts space between grid items */
+        max-width: 800px;
+        /* Adjust based on your preference */
+        margin: 0 auto;
+        /* Centers the grid in the section */
+    }
+
+    .project-item {
+        position: relative;
+        background-color: #f0f0f0;
+        /* Example background color */
+        border-radius: 10px;
+        /* Rounded corners */
+        padding: 20px;
+        /* Padding inside each project item */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Box shadow for depth */
+        display: block;
+        /* Ensures the link takes up the whole area of the item */
+        flex-direction: column;
+        /* Stacks content vertically */
+        align-items: center;
+        /* Centers content horizontally */
+        justify-content: flex-start;
+        /* Aligns content to the top */
+        text-align: center;
+        /* Ensures text is centered */
+        height: auto;
+        /* Adjusts height based on content */
+        transition: all 0.3s ease;
+    }
+
+
+
+
+    .project-links {
+        justify-content: center;
+        /* Center the links horizontally */
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        text-align: center;
+        display: none;
+        /* Hide by default */
+    }
+
+    .project-link {
+        display: inline-block;
+        /* Display links side by side */
+        margin: 0 10px;
+        /* Space between the buttons */
+        justify-content: center;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        color: #fff;
+        /* Icon color */
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Icon background for visibility */
+        padding: 10px;
+        border-radius: 50px;
+        z-index: 2;
+        /* Ensure it's above the content */
+    }
+
+
+    /* Optional: Style for hover effect on the link icon */
+    .project-link:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        /* Darken background on hover */
+    }
+
+
+    @media (max-width: 768px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+            /* Stacks items vertically on smaller screens */
+        }
+    }
+
+    .projects-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .projects-grid {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .project-item:hover {
+        transform: translateY(5px);
+        /* Slight raise effect on hover */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        /* Enhanced shadow on hover */
+    }
+
+
+    footer {
+        background: #222;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+
+
+
+    .cv-section object {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+
+    .text-slideshow {
+        width: 60%;
+        position: relative;
+    }
+
+    .text-slide {
+        display: none;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .fade {
+        animation: fadeEffect 1.5s ease-in-out;
+    }
+
+    @keyframes fadeEffect {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    .slide-indicators {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .dot.active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    #contact {
+        color: #fff;
+        /* White text color */
+        padding: 50px 10%;
+        /* Adds padding and allows the section to breathe on larger screens */
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        /* Subtle white shadow for depth */
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    .contact-info p {
+        color: white;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contact-form,
+    .contact-info {
+        flex: 1;
+    }
+
+    .contact-info {
+        text-align: center;
+        /* Centers the content within the contact info */
+        justify-content: center;
+        padding: 20px;
+        /* Adds padding around for spacing */
+        display: flex;
+        /* Enables flexbox layout */
+        flex-direction: column;
+        /* Stacks the info elements vertically */
+        align-items: center;
+        /* Centers the info elements horizontally */
+        margin-left: 0;
+        /* Ensures it's centered by removing any left margin */
+    }
+
+    .contact-info h3 {
+        margin-top: 0;
+        margin-bottom: 1px;
+        color: white;
+    }
+
+    .contact-info p {
+        margin: 30px;
+        line-height: 1.6;
+    }
+
+
+    @media (max-width: 768px) {
+        .contact-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-info {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    }
+
+    #contact h2 {
+        color: #fff;
+        /* White color for the heading */
+        margin-bottom: 30px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        /* Ensures responsiveness */
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    .contact-icons {
+        display: flex;
+        /* Aligns children (icons) in a row */
+        align-items: center;
+        /* Vertically centers the icons */
+        gap: 20px;
+        /* Adjusts the space between each icon */
+    }
+
+    .icon-link {
+        display: inline-flex;
+        /* Ensures the link and its icon are centered */
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        /* Removes underline from links */
+        color: #64FFDA;
+        font-size: 50px;
+        /* Makes the icons larger */
+    }
+
+    .icon-link:hover {
+
+        color: #5aafe6;
+        /* Color changes on hover */
+
+    }
+
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Aligns items to the start of the flex container */
+        width: 100%;
+        /* Ensures the form group takes full width */
+        margin-bottom: 20px;
+        /* Adds some space between each form group */
+    }
+
+    .form-group label {
+        margin-bottom: 5px;
+        /* Space between label and input */
+        color: #fff;
+        /* Adjust the color as needed */
+    }
+
+    .form-group input[type="email"],
+    .form-group input[type="text"],
+    .form-group textarea {
+        width: 100%;
+        /* Ensures input fields take full width of their parent */
+        padding: 10px;
+        /* Padding inside the input fields */
+        border: 1px solid #ccc;
+        /* Border color */
+        border-radius: 5px;
+        /* Rounded corners for the input fields */
+        background-color: #fff;
+        /* Background color */
+        color: #333;
+        /* Text color */
+    }
+
+    /* Adjusts the focus state of the input fields */
+
+
+    .form-group textarea {
+        height: 120px;
+        /* Specific height for the message area */
+        resize: none;
+        /* Disables resizing */
+    }
+
+    #contact button[type="submit"] {
+        background-color: #fff;
+        /* White background for the button */
+        color: #000;
+        /* Black text color */
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 1s, color 1s;
+        align-self: center;
+        /* Center the button in the form */
+        margin-top: 20px;
+    }
+
+
+    #contact button[type="submit"]:hover {
+        background-color: #5555;
+        /* Darker background on hover */
+        color: #fff;
+        /* White text color on hover */
+        transition: all 1s ease-in-out;
+        border-radius: 50%;
+    }
+</style>
+<script>
+
+    function typeEffect(element, speed) {
+        let text = element.innerHTML;
+        element.innerHTML = "";
+
+        let i = 0;
+        let timer = setInterval(function () {
+            if (i < text.length) {
+                element.append(text.charAt(i));
+                i++;
+            } else {
+                clearInterval(timer);
+            }
+        }, speed);
+    }
+
+    window.onload = function () {
+        const greetingH1 = document.querySelector('.home-text h1');
+        const greetingP = document.querySelector('.home-text p');
+        greetingH1.classList.add('typing');
+        greetingP.classList.add('typing');
+        typeEffect(greetingH1, 90);
+        setTimeout(() => { typeEffect(greetingP, 90); }, greetingH1.innerHTML.length * 90);
+    }
+
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("text-slide");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: target.offsetTop - 60, // Adjust if you have a fixed header
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+</script>
+
+</html>
